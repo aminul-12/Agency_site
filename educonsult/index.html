@@ -1,0 +1,423 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>GlobeEdu Consult — Study Abroad & Scholarships</title>
+    <meta name="description"
+        content="Free education consultancy template: study abroad counseling, admissions, visas, scholarships, IELTS prep, and more.">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="/educonsult/assets/css/style.css">
+
+</head>
+
+<body>
+    <!-- NAV -->
+    <header class="nav">
+        <div class="container row">
+            <div class="brand">
+                <div class="logo" aria-hidden="true">
+                    <!-- Simple globe icon -->
+                    <svg viewBox="0 0 24 24" fill="none" stroke="#05220f" stroke-width="2">
+                        <circle cx="12" cy="12" r="9" stroke="#05220f" fill="white" />
+                        <path d="M3 12h18M12 3a15 15 0 0 1 0 18M12 3a15 15 0 0 0 0 18" />
+                    </svg>
+                </div>
+                <a href="#" aria-label="GlobeEdu home">GlobeEdu Consult</a>
+                <span class="badge" title="Bangladesh based">BD • Since 2018</span>
+            </div>
+            <nav class="navlinks">
+                <a href="/educonsult/service.html">Services</a>
+                <a href="#destinations">Destinations</a>
+                <a href="#process">Process</a>
+                <a href="#scholarships">Scholarships</a>
+                <a href="#faq">FAQ</a>
+                <a href="#contact" class="btn primary">Free Assessment</a>
+            </nav>
+        </div>
+    </header> <!-- HERO -->
+    <section class="hero">
+        <div class="container grid grid-cols-2">
+            <div>
+                <div class="chip">🇧🇩 Designed for students in Bangladesh • বাংলা সমর্থিত</div>
+                <h1 class="headline">Study Abroad with Confidence — Admissions, Visas & Scholarships</h1>
+                <p class="sub">We help students secure offers from top universities in the UK, Canada, USA, Australia &
+                    Europe. Get 1:1 counseling, application strategy, SOP review, visa guidance, and scholarship
+                    support.</p>
+                <div class="hero-card">
+                    <a href="#contact" class="btn primary">Get Free Assessment</a>
+                    <a href="https://wa.me/" class="btn secondary" target="_blank" rel="noopener">Chat on WhatsApp</a>
+                </div>
+                <div class="trust">
+                    <div class="trust-item">✅ 1,200+ successful admits</div>
+                    <div class="trust-item">🎓 300+ scholarships</div>
+                    <div class="trust-item">🛂 Visa success 96%</div>
+                    <div class="trust-item">⭐ 4.9/5 student rating</div>
+                </div>
+            </div>
+            <div>
+                <div class="card">
+                    <h3>Quick Eligibility Check</h3>
+                    <p>See if you’re eligible in <strong>60 seconds</strong>. No signup required.</p>
+                    <div class="stack" style="margin-top:12px">
+                        <label class="field">
+                            <span>Target country</span>
+                            <select id="q-country">
+                                <option>United Kingdom</option>
+                                <option>Canada</option>
+                                <option>United States</option>
+                                <option>Australia</option>
+                                <option>Germany</option>
+                                <option>Ireland</option>
+                                <option>France</option>
+                                <option>Sweden</option>
+                                <option>Netherlands</option>
+                                <option>New Zealand</option>
+                                <option>Denmark</option>
+                                <option>Norway</option>
+                                <option>Finland</option>
+                                <option>Switzerland</option>
+                                <option>Singapore</option>
+                                <option>Other</option>
+                            </select>
+                        </label>
+                        <label class="field">
+                            <span>CGPA (out of 4.00)</span>
+                            <input id="q-cgpa" type="number" step="0.01" placeholder="e.g., 3.50">
+                        </label>
+                        <label class="field">
+                            <span>IELTS/TOEFL score (overall)</span>
+                            <input id="q-ielts" type="number" step="0.1" placeholder="e.g., 7.0">
+
+                        </label>
+                        <button id="q-btn" class="btn primary" type="button">Check Now</button>
+                        <div id="q-result" class="sub" style="display:none"></div>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section> <!-- SERVICES -->
+    <section id="services" class="section">
+        <div class="container">
+            <h2>Our Services</h2>
+            <p class="lead">End-to-end support — from shortlisting to your first day on campus.</p>
+            <div class="grid3" style="margin-top:16px">
+                <div class="service">
+                    <div class="icon">🎯</div>
+                    <h3>Profile Evaluation</h3>
+                    <p>Personalized university & course shortlist based on your profile and budget.</p>
+                </div>
+                <div class="service">
+                    <div class="icon">📝</div>
+                    <h3>SOP & CV Editing</h3>
+                    <p>Compelling, plagiarism-safe statements and professional resumes.</p>
+                </div>
+                <div class="service">
+                    <div class="icon">📨</div>
+                    <h3>Application Filing</h3>
+                    <p>Apply smartly with fee waivers, deadlines tracking, and document checks.</p>
+                </div>
+                <div class="service">
+                    <div class="icon">🎓</div>
+                    <h3>Scholarship Guidance</h3>
+                    <p>Target merit & need-based awards; optimize your chances.</p>
+                </div>
+                <div class="service">
+                    <div class="icon">🛂</div>
+                    <h3>Visa Support</h3>
+                    <p>Financials, SOP for visa, mock interviews, and pre-departure briefing.</p>
+                </div>
+                <div class="service">
+                    <div class="icon">🏠</div>
+                    <h3>Accommodation & Flights</h3>
+                    <p>Trusted partners for housing, tickets, SIM, and airport pickup.</p>
+
+                </div>
+            </div>
+        </div>
+    </section> <!-- DESTINATIONS -->
+    <section id="destinations" class="section">
+        <div class="container">
+            <h2>Popular Destinations</h2>
+            <p class="lead">High visa success, post-study work options, and global rankings.</p>
+            <div class="grid4" style="margin-top:16px">
+                <div class="dest"><span class="flag">🇬🇧</span>United Kingdom</div>
+                <div class="dest"><span class="flag">🇨🇦</span>Canada</div>
+                <div class="dest"><span class="flag">🇺🇸</span>United States</div>
+                <div class="dest"><span class="flag">🇦🇺</span>Australia</div>
+                <div class="dest"><span class="flag">🇩🇪</span>Germany</div>
+                <div class="dest"><span class="flag">🇮🇪</span>Ireland</div>
+                <div class="dest"><span class="flag">🇫🇷</span>France</div>
+                <div class="dest"><span class="flag">🇸🇪</span>Sweden</div>
+                <div class="dest"><span class="flag">🇳🇱</span>Netherlands</div>
+                <div class="dest"><span class="flag">🇳🇿</span>New Zealand</div>
+
+            </div>
+        </div>
+    </section>
+    <!-- PROCESS -->
+    <section id="process" class="section">
+        <div class="container">
+            <h2>How It Works</h2>
+            <p class="lead">Simple 5-step journey to your dream university.</p>
+            <div class="grid3" style="margin-top:16px">
+                <div class="step">
+                    <h3>Free Counseling</h3>
+                    <p>Tell us your goals. We evaluate your profile and budget.</p>
+                </div>
+                <div class="step">
+                    <h3>Shortlist & Strategy</h3>
+                    <p>We map safe, match, reach universities and a timeline.</p>
+                </div>
+                <div class="step">
+                    <h3>Applications</h3>
+                    <p>We prepare SOP/LOR/CV, file applications, and track decisions.</p>
+                </div>
+                <div class="step">
+                    <h3>Scholarships & Visa</h3>
+                    <p>We target awards and prepare a strong visa case.</p>
+                </div>
+                <div class="step">
+                    <h3>Pre-Departure</h3>
+                    <p>Accommodation, tickets, SIM, banking, and packing checklist.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- PROGRAMS -->
+    <section id="programs" class="section">
+        <div class="container">
+            <h2>Programs We Support</h2>
+            <div class="grid4" style="margin-top:16px">
+                <div class="program">
+                    <h3>Foundation / Pathway</h3>
+                    <p>For students transitioning to UG or changing streams.</p>
+                </div>
+                <div class="program">
+                    <h3>Bachelor's</h3>
+                    <p>Direct UG admits with scholarships and credit transfers.</p>
+                </div>
+                <div class="program">
+                    <h3>Master's</h3>
+                    <p>STEM, Business, CS/AI, Data, Public Health, and more.</p>
+                </div>
+                <div class="program">
+                    <h3>PhD / Research</h3>
+                    <p>Supervisor matching, emails, proposals, and funding.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- SCHOLARSHIPS -->
+    <section id="scholarships" class="section">
+        <div class="container">
+            <div class="grid2">
+                <div>
+                    <h2>Scholarships & Fee Waivers</h2>
+                    <p class="lead">Merit-based, need-based, country-specific, and university grants. We also secure fee
+                        waivers for eligible profiles.</p>
+                    <ul>
+                        <li>✅ Application fee waivers (selected universities)</li>
+                        <li>✅ Automatic merit scholarships with admission</li>
+                        <li>✅ Competitive awards (Chevening, Commonwealth, DAAD)</li>
+                        <li>✅ Research & Graduate Assistantships</li>
+                        <li>✅ Country-specific funding (e.g., Canada Graduate Scholarships)</li>
+                        <li>✅ Need-based support for low-income students</li>
+                        <li>✅ Partner university scholarships (up to £10,000)</li>
+                        <li>✅ Early bird discounts (for early applications)</li>
+                        <li>✅ Alumni referral bonuses (if applicable)</li>
+                        <li>✅ Customized scholarship search based on your profile</li>
+
+                    </ul>
+                    <div style="margin-top:12px" class="stack">
+                        <a href="#contact" class="btn primary">Check Scholarship Eligibility</a>
+                        <a href="#faq" class="btn secondary">See FAQs</a>
+
+                    </div>
+                </div>
+                <div class="card">
+                    <h3>Why Students Choose Us</h3>
+                    <p>Honest guidance, transparent costs, and proven results. No fake promises.</p>
+                    <div class="stack" style="margin-top:10px">
+                        <div class="dest">⚡ Fast turnaround — deadlines tracked</div>
+                        <div class="dest">🔍 Document accuracy — visa-safe</div>
+                        <div class="dest">🤝 End-to-end support — until you fly</div>
+                        <div class="dest">📞 24/7 WhatsApp support — no time zone issues</div>
+                        <div class="dest">💬 Free profile evaluation — no hidden fees</div>
+                        <div class="dest">🌟 4.9/5 student rating — see reviews</div>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section> <!-- TESTIMONIALS -->
+    <section class="section">
+        <div class="container">
+            <h2>Student Stories</h2>
+            <div id="slider" class="card" style="position:relative;overflow:hidden">
+                <div id="slides" style="display:flex;gap:16px;transition:transform .5s">
+                    <div class="program" style="min-width:100%">
+                        <h3>Rifa • MSc Data Science • UK</h3>
+                        <p>“Got a £5,000 scholarship and visa in first attempt. Thank you GlobeEdu!”</p>
+                    </div>
+                    <div class="program" style="min-width:100%">
+                        <h3>Mahin • BBA • Canada</h3>
+                        <p>“Application fee waiver + housing support — super smooth process.”</p>
+                    </div>
+                    <div class="program" style="min-width:100%">
+                        <h3>Nadia • PhD AI • Germany</h3>
+                        <p>“Secured supervisor & DAAD funding guidance — life changing.”</p>
+                    </div>
+                </div>
+                <button id="prev" class="btn secondary"
+                    style="position:absolute;left:12px;top:50%;transform:translateY(-50%)">‹</button>
+                <button id="next" class="btn secondary"
+                    style="position:absolute;right:12px;top:50%;transform:translateY(-50%)">›</button>
+            </div>
+        </div>
+    </section> <!-- FAQ -->
+    <section id="faq" class="section">
+        <div class="container">
+            <h2>Frequently Asked Questions</h2>
+            <div class="faq" style="margin-top:12px">
+                <details>
+                    <summary>Do you charge any consultancy fee?</summary>
+                    <p>Profile evaluation is free. Service charges depend on the package and country; many
+                        partner-university applications are free.</p>
+
+                </details>
+                <details>
+                    <summary>Can you help with SOP/LOR/CV?</summary>
+                    <p>Yes. We co-create original SOPs and advise your recommenders with structured LOR templates.</p>
+                </details>
+                <details>
+                    <summary>What about visa success?</summary>
+                    <p>We prepare finances, CAS/I-20 docs, and conduct mock interviews. Final outcomes depend on embassy
+                        decisions.</p>
+                </details>
+                <details>
+                    <summary>Do you support Bengali?</summary>
+                    <p>Yes — বাংলা সাপোর্ট আছে। We can counsel in Bangla and English.</p>
+                </details>
+            </div>
+        </div>
+    </section>
+    <!-- CONTACT -->
+    <section id="contact" class="section">
+        <div class="container">
+            <h2>Contact & Free Assessment</h2>
+            <p class="lead">Fill the form — our counselor will reach out within 24 hours (Sun–Thu).</p>
+            <div class="contact" style="margin-top:16px">
+                <form id="leadForm" class="card" novalidate>
+                    <div class="form-row">
+                        <label class="field">
+                            <span>Full Name</span>
+                            <input name="name" placeholder="Your full name" required>
+                        </label>
+                        <label class="field">
+                            <span>Email</span>
+                            <input name="email" type="email" placeholder="you@example.com" required>
+                        </label>
+                    </div>
+                    <div class="form-row">
+                        <label class="field">
+                            <span>Phone (WhatsApp)</span>
+                            <input name="phone" type="tel" placeholder="01XXXXXXXXX" required>
+                        </label>
+                        <label class="field">
+                            <span>Current Education</span>
+                            <select name="level" required>
+                                <option value="UG">Undergraduate</option>
+                                <option value="Grad">Graduate</option>
+                                <option value="Working">Working Professional</option>
+                                <option value="PhD">PhD/Research</option>
+                                <option value="Other">Other</option>
+
+                            </select>
+                        </label>
+                    </div>
+                    <div class="form-row">
+                        <label class="field">
+                            <span>Target Country</span>
+                            <select name="country" required>
+                                <option>United Kingdom</option>
+                                <option>Canada</option>
+                                <option>United States</option>
+                                <option>Australia</option>
+                                <option>Germany</option>
+                                <option>Ireland</option>
+                                <option>France</option>
+                                <option>Sweden</option>
+                                <option>Netherlands</option>
+                                <option>New Zealand</option>
+                                <option>Denmark</option>
+                                <option>Norway</option>
+                                <option>Finland</option>
+                                <option>Switzerland</option>
+                                <option>Singapore</option>
+                                <option>Other</option>
+
+                            </select>
+                        </label>
+                        <label class="field">
+                            <span>Intake</span>
+                            <select name="intake" required>
+                                <option>January 2026</option>
+                                <option>May 2026</option>
+                                <option>September 2026</option>
+                                <option>January 2027</option>
+                                <option>May 2027</option>
+                                <option>September 2027</option>
+                                <option>Other</option>
+                            </select>
+                        </label>
+                    </div>
+                    <label class="field">
+                        <span>Your Message</span>
+                        <textarea name="message" rows="4"
+                            placeholder="Tell us about your goals, CGPA, IELTS/TOEFL, budget…"></textarea>
+                    </label>
+                    <label class="field">
+                        <span>Upload Transcript (optional)</span>
+                        <input name="file" type="file" accept=".pdf,.jpg,.png">
+                    </label>
+                    <label class="consent">
+                        <input type="checkbox" id="consent" required>
+                        <span>I agree to be contacted via phone/WhatsApp/email. My data will be handled according to
+                            privacy rules.</span>
+                    </label>
+                    <button type="submit" class="btn primary">Submit</button>
+                </form>
+                <div class="card"
+                    style="padding:16px; display:flex; flex-direction:column; justify-content:center; align-items:center;">
+                    <h3>Reach Us Directly</h3>
+                    <p>📧 Email: info@globeedu.com</p>
+                    <p>📞 WhatsApp/Call: +880 1774744272</p>
+                    <p>📍 Sylhet, Bangladesh</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <div class="footer-credit">
+        <p class="socials">
+            Follow us:
+            <a href="#" target="_blank" rel="noopener">Facebook</a> |
+            <a href="#" target="_blank" rel="noopener">LinkedIn</a> |
+            <a href="#" target="_blank" rel="noopener">Instagram</a>
+        </p>
+        <p class="credit">
+            © 2025 GlobeEdu Consult • All Rights Reserved • Designed & Developed by
+            <a href="https://aminul-port.netlify.app/"><strong>Aminul Islam</strong></a>
+        </p>
+    </div>
+
+
+
+
+</body>

@@ -1,0 +1,89 @@
+.scholarship-container {
+    font-family: "Poppins", sans-serif;
+    background: #0d1117;
+    color: #e6edf3;
+    padding: 20px;
+    line-height: 1.6;
+}
+
+.scholarship-header {
+    text-align: center;
+    padding: 40px 20px;
+    background: linear-gradient(135deg, #1f2937, #111827);
+    border-radius: 12px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.4);
+}
+
+.scholarship-header h1 {
+    font-size: 2.5rem;
+    margin-bottom: 10px;
+    color: #38bdf8;
+}
+
+.scholarship-header p {
+    font-size: 1.2rem;
+    opacity: 0.8;
+}
+
+.scholarship-intro,
+.scholarship-list,
+.scholarship-tips {
+    margin: 40px 0;
+    padding: 20px;
+    background: #161b22;
+    border-radius: 12px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.5);
+}
+
+.scholarship-card {
+    background: #1e293b;
+    border-radius: 12px;
+    padding: 20px;
+    margin: 15px 0;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.scholarship-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 6px 15px rgba(56, 189, 248, 0.4);
+}
+
+.scholarship-card h3 {
+    color: #38bdf8;
+    margin-bottom: 10px;
+}
+
+.scholarship-card a {
+    display: inline-block;
+    margin-top: 10px;
+    padding: 10px 18px;
+    background: #38bdf8;
+    color: #111827;
+    border-radius: 8px;
+    text-decoration: none;
+    font-weight: bold;
+    transition: background 0.3s ease;
+}
+
+.scholarship-card a:hover {
+    background: #0ea5e9;
+}
+
+.scholarship-tips ul {
+    list-style: none;
+    padding: 0;
+}
+
+.scholarship-tips li {
+    padding: 8px 0;
+    border-bottom: 1px solid #2d3748;
+}
+
+.scholarship-footer {
+    text-align: center;
+    margin-top: 50px;
+    padding: 20px;
+    border-top: 1px solid #2d3748;
+    font-size: 0.9rem;
+    opacity: 0.7;
+}

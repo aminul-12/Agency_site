@@ -3,7 +3,7 @@ document.addEventListener("DOMContentLoaded", () => {
     const searchInput = document.getElementById("searchInput");
 
     // Load JSON data
-    fetch("/educonsult/src/scripts/scholerships_1.json")
+    fetch("/src/scripts/scholerships_1.json")
         .then(response => response.json())
         .then(data => {
             renderScholarships(data);

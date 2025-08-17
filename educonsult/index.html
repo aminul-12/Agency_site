@@ -3,14 +3,705 @@
 
 <head>
     <meta charset="utf-8" />
+
     <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <title>GlobeEdu Consult — Study Abroad & Scholarships</title>
+    <meta name="theme-color" content="#05220f">
+    <meta name="author" content="Aminul Islam">
+    <meta name="keywords"
+        content="study abroad, scholarships, education consultancy, university admission, visa support, career counseling">
+    <meta name="robots" content="index, follow">
+    <link rel="icon" href="/educonsult/assets/images/favicon.ico" type="image/x-icon">
+    <link rel="apple-touch-icon" href="/educonsult/assets/images/apple-touch-icon.png">
+    <link rel="manifest" href="/educonsult/assets/manifest.json">
+    <link rel="canonical" href="https://www.eduglobeconsult.com/">
+    <title>EduGlobe Consult — Study Abroad & Scholarships</title>
     <meta name="description"
         content="Free education consultancy template: study abroad counseling, admissions, visas, scholarships, IELTS prep, and more.">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="/educonsult/assets/css/style.css">
+
+
+    <style>
+        :root {
+            --bg: #0f172a;
+            /* slate-900 */
+            --panel: #111827;
+            /* gray-900 */
+            --muted: #94a3b8;
+            /* slate-400 */
+            --text: #e5e7eb;
+            /* gray-200 */
+            --brand: #22c55e;
+            /* green-500 */
+            --brand-2: #38bdf8;
+            /* sky-400 */
+            --accent: #f59e0b;
+            /* amber-500 */
+            --danger: #ef4444;
+            /* red-500 */
+            --ring: 0 0 0 3px rgb(34 197 94 / .25);
+            --radius: 16px;
+            --shadow: 0 10px 30px rgb(0 0 0 / .25);
+            --shadow-soft: 0 10px 20px rgb(0 0 0 / .15);
+            --container: 1120px;
+        }
+
+        * {
+            box-sizing: border-box
+        }
+
+        html,
+        body {
+            margin: 0;
+            padding: 0;
+            font-family: Inter, system-ui, -apple-system, Segoe UI, Roboto, Helvetica, Arial, sans-serif;
+            background: linear-gradient(180deg, var(--bg), #0b1224);
+            color: var(--text);
+            scroll-behavior: smooth
+        }
+
+        img {
+            max-width: 100%;
+            display: block
+        }
+
+        a {
+            color: inherit;
+            text-decoration: none
+        }
+
+        .container {
+            max-width: var(--container);
+            margin-inline: auto;
+            padding: 0 20px
+        }
+
+        .btn {
+            display: inline-flex;
+            align-items: center;
+            gap: 10px;
+            padding: 14px 18px;
+            border-radius: 999px;
+            font-weight: 600;
+            border: 1px solid transparent;
+            transition: .25s;
+            box-shadow: var(--shadow-soft)
+        }
+
+        .btn.primary {
+            background: var(--brand);
+            color: #06210f
+        }
+
+        .btn.primary:hover {
+            filter: brightness(.95);
+            box-shadow: var(--shadow)
+        }
+
+        .btn.secondary {
+            background: transparent;
+            border-color: #1f2937
+        }
+
+        .btn.secondary:hover {
+            border-color: #334155
+        }
+
+        .chip {
+            display: inline-flex;
+            gap: 8px;
+            align-items: center;
+            padding: 6px 10px;
+            border-radius: 999px;
+            background: #0b1a33;
+            border: 1px solid #19304f;
+            color: #c3e7ff;
+            font-size: 12px
+        }
+
+        .badge {
+            display: inline-block;
+            padding: 6px 10px;
+            border-radius: 999px;
+            background: #052816;
+            color: #86efac;
+            font-weight: 700;
+            font-size: 12px;
+            letter-spacing: .3px
+        }
+
+        .nav {
+            position: sticky;
+            top: 0;
+            z-index: 50;
+            background: rgba(8, 14, 32, .6);
+            backdrop-filter: blur(12px);
+            border-bottom: 1px solid #0b1a33
+        }
+
+        .nav .row {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            gap: 16px;
+            padding: 12px 0
+        }
+
+        .brand {
+            display: flex;
+            align-items: center;
+            gap: 12px;
+            font-weight: 800;
+            letter-spacing: .3px
+        }
+
+        .brand .logo {
+            width: 36px;
+            height: 36px;
+            border-radius: 12px;
+            background: conic-gradient(from 220deg, var(--brand), var(--brand-2));
+            display: grid;
+            place-items: center;
+            box-shadow: 0 6px 16px rgb(34 197 94 / .35)
+        }
+
+        .brand .logo svg {
+            width: 22px;
+            height: 22px
+        }
+
+        .navlinks {
+            display: flex;
+            align-items: center;
+            gap: 14px;
+            flex-wrap: wrap
+        }
+
+        .navlinks a {
+            opacity: .9;
+            padding: 10px 12px;
+            border-radius: 999px
+        }
+
+        .navlinks a:hover {
+            background: #0b1a33
+        }
+
+        .hero {
+            padding: 56px 0 28px;
+            background: radial-gradient(1000px 500px at 80% -50%, rgba(56, 189, 248, .18), transparent), radial-gradient(800px 400px at 10% -40%, rgba(34, 197, 94, .15), transparent)
+        }
+
+        .hero .grid {
+            display: grid;
+            grid-template-columns: 1.1fr .9fr;
+            gap: 28px;
+            align-items: center
+        }
+
+        .headline {
+            font-size: 40px;
+            line-height: 1.08;
+            margin: 0 0 14px;
+            font-weight: 800
+        }
+
+        .sub {
+            color: var(--muted);
+            font-size: 16px;
+            max-width: 60ch
+        }
+
+        .hero-card {
+            margin-top: 18px;
+            display: flex;
+            gap: 12px;
+            flex-wrap: wrap
+        }
+
+        .card {
+            background: linear-gradient(180deg, #0b1326, #0c1a34);
+            border: 1px solid #132242;
+            border-radius: var(--radius);
+            padding: 18px;
+            box-shadow: var(--shadow-soft)
+        }
+
+        .card h3 {
+            margin: 0 0 8px;
+            font-size: 18px
+        }
+
+        .card p {
+            margin: 0;
+            color: #b6c2d3
+        }
+
+        .trust {
+            display: flex;
+            gap: 14px;
+            flex-wrap: wrap;
+            margin-top: 22px
+        }
+
+        .trust .trust-item {
+            display: flex;
+            gap: 10px;
+            align-items: center;
+            background: #071326;
+            border: 1px dashed #103052;
+            padding: 8px 12px;
+            border-radius: 12px;
+            font-size: 13px;
+            color: #bcd7ff
+        }
+
+        .section {
+            padding: 50px 0
+        }
+
+        .section h2 {
+            font-size: 28px;
+            margin: 0 0 14px
+        }
+
+        .section .lead {
+            color: var(--muted);
+            max-width: 70ch
+        }
+
+        .grid3 {
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            gap: 16px
+        }
+
+        .grid4 {
+            display: grid;
+            grid-template-columns: repeat(4, 1fr);
+            gap: 16px
+        }
+
+        .grid2 {
+            display: grid;
+            grid-template-columns: repeat(2, 1fr);
+            gap: 16px
+        }
+
+        .stack {
+            display: flex;
+            flex-direction: column;
+            gap: 12px
+        }
+
+        .service {
+            padding: 16px;
+            border: 1px solid #1a2f4b;
+            border-radius: 16px;
+            background: linear-gradient(180deg, #0a162b, #0a1830)
+        }
+
+        .service .icon {
+            width: 36px;
+            height: 36px;
+            border-radius: 10px;
+            background: linear-gradient(180deg, #093016, #06210f);
+            display: grid;
+            place-items: center
+        }
+
+        .dest {
+            padding: 14px;
+            border: 1px solid #1a2f4b;
+            border-radius: 14px;
+            display: flex;
+            align-items: center;
+            gap: 12px;
+            background: linear-gradient(180deg, #0a162b, #0a1830)
+        }
+
+        .dest .flag {
+            font-size: 22px
+        }
+
+        .steps {
+            counter-reset: s
+        }
+
+        .step {
+            position: relative;
+            padding: 16px;
+            border: 1px solid #1a2f4b;
+            border-radius: 14px;
+            background: #0b152a
+        }
+
+        .step:before {
+            counter-increment: s;
+            content: counter(s);
+            position: absolute;
+            top: -12px;
+            left: -12px;
+            background: var(--brand);
+            color: #06210f;
+            width: 32px;
+            height: 32px;
+            border-radius: 50%;
+            display: grid;
+            place-items: center;
+            font-weight: 800;
+            box-shadow: 0 6px 14px rgb(34 197 94 / .4)
+        }
+
+        .program {
+            padding: 16px;
+            border: 1px solid #1a2f4b;
+            border-radius: 14px;
+            background: #0b152a
+        }
+
+        .faq {
+            border: 1px solid #1a2f4b;
+            border-radius: 14px
+        }
+
+        .faq details {
+            border-bottom: 1px solid #102341
+        }
+
+        .faq details:last-child {
+            border-bottom: none
+        }
+
+        .faq summary {
+            cursor: pointer;
+            padding: 16px;
+            list-style: none
+        }
+
+        .faq p {
+            margin: 0;
+            padding: 0 16px 16px;
+            color: #b6c2d3
+        }
+
+        .contact {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 18px
+        }
+
+        form .field {
+            display: flex;
+            flex-direction: column;
+            gap: 6px;
+            margin-bottom: 12px
+        }
+
+        form input,
+        form select,
+        form textarea {
+            background: #071326;
+            border: 1px solid #0e2a46;
+            color: var(--text);
+            padding: 12px 14px;
+            border-radius: 12px;
+            outline: none
+        }
+
+        form input:focus,
+        form select:focus,
+        form textarea:focus {
+            box-shadow: var(--ring);
+            border-color: #14532d
+        }
+
+        .consent {
+            display: flex;
+            gap: 10px;
+            align-items: flex-start;
+            font-size: 13px;
+            color: #b6c2d3
+        }
+
+        .consent input {
+            margin-top: 3px
+        }
+
+        .form-row {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 12px
+        }
+
+        .footer {
+            padding: 40px 0;
+            border-top: 1px solid #0b1a33;
+            background: linear-gradient(180deg, #0b1326, #0a152b)
+        }
+
+        .footer .cols {
+            display: grid;
+            grid-template-columns: 2fr 1fr 1fr 1fr;
+            gap: 16px
+        }
+
+        .footer a {
+            display: block;
+            color: #c1d1e8;
+            margin: 8px 0;
+            font-size: 14px
+        }
+
+        .footnote {
+            margin-top: 16px;
+            color: #90a6c1;
+            font-size: 12px
+        }
+
+        /* Responsive */
+        @media (max-width: 980px) {
+            .hero .grid {
+                grid-template-columns: 1fr
+            }
+
+            .grid3 {
+                grid-template-columns: 1fr 1fr
+            }
+
+            .grid4 {
+                grid-template-columns: 1fr 1fr
+            }
+
+            .grid2 {
+                grid-template-columns: 1fr
+            }
+
+            .contact {
+                grid-template-columns: 1fr
+            }
+
+            .footer .cols {
+                grid-template-columns: 1fr 1fr
+            }
+        }
+
+        @media (max-width:600px) {
+            .headline {
+                font-size: 30px
+            }
+
+            .navlinks {
+                display: none
+            }
+        }
+
+
+
+
+
+
+
+
+
+        .footer-credit {
+            background-color: #05220f;
+            color: #ffffff;
+            text-align: center;
+            padding: 20px 15px;
+            font-family: 'Inter', sans-serif;
+            font-size: 0.95rem;
+            line-height: 1.6;
+            border-top: 2px solid #0a4c2d;
+        }
+
+        .footer-credit .socials {
+            margin-bottom: 8px;
+        }
+
+        .footer-credit a {
+            color: #a0e3a0;
+            text-decoration: none;
+            font-weight: 500;
+            transition: all 0.3s ease;
+        }
+
+        .footer-credit a:hover {
+            color: #ffffff;
+            text-shadow: 0 0 5px #a0e3a0;
+            transform: scale(1.1);
+        }
+
+        .footer-credit .credit strong {
+            color: #a0e3a0;
+            transition: all 0.3s ease;
+        }
+
+        .footer-credit .credit strong:hover {
+            color: #ffffff;
+            text-shadow: 0 0 5px #a0e3a0;
+            cursor: default;
+        }
+
+
+
+        @media (max-width: 480px) {
+            .container {
+                padding: 0 10px;
+                /* padding কমালাম */
+            }
+
+            .grid3,
+            .grid4,
+            .grid2,
+            .hero .grid {
+                grid-template-columns: 1fr !important;
+                gap: 12px;
+                /* gap কমালাম */
+            }
+
+            .headline {
+                font-size: 24px;
+                line-height: 1.2;
+            }
+
+            .btn {
+                width: 100%;
+                justify-content: center;
+                text-align: center;
+                padding: 12px 0;
+                /* বাটন ছোট করে দিলাম */
+            }
+
+            .trust {
+                flex-direction: column;
+                align-items: stretch;
+                gap: 8px;
+                /* trust-item গ্যাপ কমালাম */
+            }
+
+            .hero-card {
+                flex-direction: column;
+                gap: 12px;
+            }
+
+            .card,
+            .service,
+            .dest,
+            .step,
+            .program,
+            .faq {
+                width: 100%;
+                /* সব কার্ড full width */
+            }
+        }
+
+
+        /* =============================
+    Footer Credit Responsive
+============================= */
+        .footer-credit {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            flex-wrap: wrap;
+            /* মোবাইলে wrap হবে */
+            gap: 12px;
+            padding: 20px 30px;
+            font-size: 0.9rem;
+            color: #cfd8e3;
+            background: linear-gradient(145deg, #0c1120, #111422);
+            border-top: 1px solid #1f2a40;
+            transition: all 0.3s ease;
+        }
+
+        .footer-credit .socials,
+        .footer-credit .credit {
+            margin: 0;
+            display: flex;
+            align-items: center;
+            flex-wrap: wrap;
+            /* মোবাইলে wrap হবে */
+            gap: 8px;
+        }
+
+        .footer-credit .socials a,
+        .footer-credit .credit a {
+            color: #22c55e;
+            text-decoration: none;
+            transition: all 0.3s ease;
+        }
+
+        .footer-credit .socials a:hover,
+        .footer-credit .credit a:hover {
+            color: #ffffff;
+            text-shadow: 0 0 8px #22c55e50;
+        }
+
+        /* =============================
+    Responsive for mobile
+============================= */
+        @media (max-width: 600px) {
+            .footer-credit {
+                flex-direction: column;
+                align-items: center;
+                text-align: center;
+            }
+
+            .footer-credit .socials,
+            .footer-credit .credit {
+                justify-content: center;
+            }
+
+            .footer-credit .socials {
+                margin-bottom: 8px;
+            }
+        }
+
+
+        /* =============================
+   Contact Section Responsive
+============================= */
+        .contact {
+            display: flex;
+            gap: 24px;
+            flex-wrap: wrap;
+        }
+
+        .contact .card {
+            flex: 1 1 48%;
+            /* ডেক্সটপে 2 কার্ড পাশে থাকবে */
+            min-width: 280px;
+        }
+
+        /* Form elements styling for mobile */
+        .contact .card form input,
+        .contact .card form select,
+        .contact .card form textarea {
+            width: 100%;
+            box-sizing: border-box;
+        }
+
+        /* =============================
+    Responsive for mobile
+============================= */
+        @media (max-width: 768px) {
+            .contact {
+                flex-direction: column;
+                align-items: center;
+            }
+
+            .contact .card {
+                flex: 1 1 100%;
+            }
+
+            .contact .card form .form-row {
+                flex-direction: column;
+                gap: 12px;
+            }
+        }
+    </style>
 
 </head>
 
@@ -30,10 +721,10 @@
                 <span class="badge" title="Bangladesh based">BD • Since 2025</span>
             </div>
             <nav class="navlinks">
-                <a href="/educonsult/service.html">Services</a>
+                <a href="/service.html">Services</a>
                 <a href="#destinations">Destinations</a>
                 <a href="#process">Process</a>
-                <a href="/educonsult/scholerships.html">Scholarships</a>
+                <a href="/scholerships.html">Scholarships</a>
                 <a href="#faq">FAQ</a>
                 <a href="#contact" class="btn primary">Free Assessment</a>
             </nav>
@@ -50,7 +741,8 @@
                     support.</p>
                 <div class="hero-card">
                     <a href="#contact" class="btn primary">Get Free Assessment</a>
-                    <a href="https://wa.me/" class="btn secondary" target="_blank" rel="noopener">Chat on WhatsApp</a>
+                    <a href="https://wa.me/8801306466265" class="btn secondary" target="_blank" rel="noopener">Chat on
+                        WhatsApp</a>
                 </div>
                 <div class="trust">
                     <div class="trust-item">✅ 1,200+ successful admits</div>
@@ -94,8 +786,7 @@
                             <input id="q-ielts" type="number" step="0.1" placeholder="e.g., 7.0">
 
                         </label>
-                        <a href="/educonsult/eligibility.html"><button id="q-btn" class="btn primary"
-                                type="button">Check
+                        <a href="eligibility.html"><button id="q-btn" class="btn primary" type="button">Check
                                 Now</button></a>
                         <div id="q-result" class="sub" style="display:none"></div>
 
@@ -237,7 +928,7 @@
 
                     </ul>
                     <div style="margin-top:12px" class="stack">
-                        <a href="/educonsult/eligibility.html" class="btn primary">Check Scholarship Eligibility</a>
+                        <a href="/eligibility.html" class="btn primary">Check Scholarship Eligibility</a>
                         <a href="#faq" class="btn secondary">See FAQs</a>
 
                     </div>
@@ -393,14 +1084,15 @@
                         <span>I agree to be contacted via phone/WhatsApp/email. My data will be handled according to
                             privacy rules.</span>
                     </label>
-                    <a href=""><button type="submit" class="btn primary">Submit</button></a>
+                    <button type="submit" class="btn primary"><a
+                            href="/thankyou-page/thank_you.html">Submit</a></button>
                     <p class="sub" style="margin-top:8px">We will never share your data with third parties.</p>
 
                 </form>
                 <div class="card"
                     style="padding:16px; display:flex; flex-direction:column; justify-content:center; align-items:center;">
                     <h3>Reach Us Directly</h3>
-                    <p>📧 Email: info@globeedu.com</p>
+                    <p>📧 Email: mdaminulislam1516@gmail.com</p>
                     <p>📞 WhatsApp/Call: +880 1774744272</p>
                     <p>📍 Sylhet, Bangladesh</p>
                 </div>
@@ -411,7 +1103,7 @@
 
     <div class="footer-credit">
         <p class="socials">
-            Follow us:
+            © Follow us:
             <a href="#" target="_blank" rel="noopener">Facebook</a> |
             <a href="#" target="_blank" rel="noopener">LinkedIn</a> |
             <a href="#" target="_blank" rel="noopener">Instagram</a>
@@ -426,3 +1118,5 @@
 
 
 </body>
+
+</html>

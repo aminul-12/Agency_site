@@ -14,7 +14,7 @@ document.addEventListener("DOMContentLoaded", function () {
             return;
         }
 
-        fetch("/educonsult/src/scripts/eligibility_scholerships.json")
+        fetch("/src/scripts/eligibility_scholerships.json")
             .then(res => res.json())
             .then(data => {
                 const eligible = data.filter(s => {

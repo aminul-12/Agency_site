@@ -1,13 +1,39 @@
 document.addEventListener("DOMContentLoaded", () => {
-    const cards = document.querySelectorAll(".scholarship-card");
+    const scholarshipList = document.getElementById("scholarshipList");
+    const searchInput = document.getElementById("searchInput");
 
-    cards.forEach((card, index) => {
-        card.style.opacity = "0";
-        card.style.transform = "translateY(30px)";
-        setTimeout(() => {
-            card.style.transition = "all 0.6s ease";
-            card.style.opacity = "1";
-            card.style.transform = "translateY(0)";
-        }, index * 200);
-    });
+    // Load JSON data
+    fetch("/educonsult/src/scripts/scholerships_1.json")
+        .then(response => response.json())
+        .then(data => {
+            renderScholarships(data);
+
+            // Search functionality
+            searchInput.addEventListener("input", () => {
+                const query = searchInput.value.toLowerCase();
+                const filtered = data.filter(scholarship =>
+                    scholarship.title.toLowerCase().includes(query) ||
+                    scholarship.level.toLowerCase().includes(query) ||
+                    scholarship.coverage.toLowerCase().includes(query) ||
+                    scholarship.eligibility.toLowerCase().includes(query)
+                );
+                renderScholarships(filtered);
+            });
+        });
+
+    function renderScholarships(scholarships) {
+        scholarshipList.innerHTML = "";
+        scholarships.forEach(s => {
+            const card = document.createElement("div");
+            card.className = "scholarship-card";
+            card.innerHTML = `
+        <h2>${s.title}</h2>
+        <p><strong>Level:</strong> ${s.level}</p>
+        <p><strong>Coverage:</strong> ${s.coverage}</p>
+        <p><strong>Eligibility:</strong> ${s.eligibility}</p>
+        <a href="${s.link}" target="_blank" class="btn">Apply Now</a>
+      `;
+            scholarshipList.appendChild(card);
+        });
+    }
 });

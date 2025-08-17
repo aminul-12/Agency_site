@@ -1,0 +1,330 @@
+[
+    {
+        "title": "Chevening Scholarship (UK)",
+        "level": "Master’s",
+        "coverage": "Full tuition + stipend",
+        "minCGPA": 3.5,
+        "minIELTS": 6.5,
+        "link": "https://www.chevening.org/"
+    },
+    {
+        "title": "Fulbright Scholarship (USA)",
+        "level": "PhD",
+        "coverage": "Full funding (tuition, travel, living costs)",
+        "minCGPA": 3.7,
+        "minIELTS": 7.0,
+        "link": "https://foreign.fulbrightonline.org/"
+    },
+    {
+        "title": "Erasmus Mundus (EU)",
+        "level": "Master’s",
+        "coverage": "Tuition + monthly stipend",
+        "minCGPA": 3.0,
+        "minIELTS": 6.0,
+        "link": "https://www.eacea.ec.europa.eu/"
+    },
+    {
+        "title": "DAAD Scholarship (Germany)",
+        "level": "Master’s & PhD",
+        "coverage": "Monthly stipend + travel + tuition",
+        "minCGPA": 3.2,
+        "minIELTS": 6.5,
+        "link": "https://www.daad.de/en/"
+    },
+    {
+        "title": "MEXT Scholarship (Japan)",
+        "level": "Undergraduate, Master’s & PhD",
+        "coverage": "Full tuition + monthly allowance + airfare",
+        "minCGPA": 3.0,
+        "minIELTS": null,
+        "link": "https://www.studyinjapan.go.jp/"
+    },
+    {
+        "title": "Australia Awards",
+        "level": "Master’s",
+        "coverage": "Full funding + return airfare",
+        "minCGPA": 3.4,
+        "minIELTS": 6.5,
+        "link": "https://www.dfat.gov.au/"
+    },
+    {
+        "title": "Vanier Canada Graduate Scholarships",
+        "level": "PhD",
+        "coverage": "CAD $50,000/year for 3 years",
+        "minCGPA": 3.8,
+        "minIELTS": 7.0,
+        "link": "https://vanier.gc.ca/"
+    },
+    {
+        "title": "Knight-Hennessy Scholars (Stanford, USA)",
+        "level": "Master’s & PhD",
+        "coverage": "Full funding + leadership training",
+        "minCGPA": 3.6,
+        "minIELTS": 7.5,
+        "link": "https://knight-hennessy.stanford.edu/"
+    },
+    {
+        "title": "ADB-Japan Scholarship Program",
+        "level": "Master’s",
+        "coverage": "Tuition + housing + travel",
+        "minCGPA": 3.3,
+        "minIELTS": 6.5,
+        "link": "https://www.adb.org/work-with-us/careers/japan-scholarship-program"
+    },
+    {
+        "title": "Gates Cambridge Scholarship",
+        "level": "PhD",
+        "coverage": "Full tuition + living stipend",
+        "minCGPA": 3.7,
+        "minIELTS": 7.0,
+        "link": "https://www.gatescambridge.org/"
+    },
+    {
+        "title": "Rhodes Scholarship (Oxford, UK)",
+        "level": "Master’s & PhD",
+        "coverage": "Full tuition + living stipend",
+        "minCGPA": 3.8,
+        "minIELTS": 7.0,
+        "link": "https://www.rhodeshouse.ox.ac.uk/"
+    },
+    {
+        "title": "Clarendon Scholarship (Oxford, UK)",
+        "level": "Master’s & PhD",
+        "coverage": "Full tuition + living stipend",
+        "minCGPA": 3.7,
+        "minIELTS": 7.0,
+        "link": "https://www.ox.ac.uk/clarendon"
+    },
+    {
+        "title": "University of Toronto International Scholar Award",
+        "level": "Undergraduate",
+        "coverage": "CAD $100,000 over 4 years",
+        "minCGPA": 3.6,
+        "minIELTS": 6.5,
+        "link": "https://www.artsci.utoronto.ca/future/undergraduate/admissions/international-students/international-scholar-award"
+    },
+    {
+        "title": "University of Melbourne Graduate Research Scholarship",
+        "level": "Master’s & PhD",
+        "coverage": "Full tuition + living stipend",
+        "minCGPA": 3.5,
+        "minIELTS": 6.5,
+        "link": "https://scholarships.unimelb.edu.au/awards/graduate-research-scholarship"
+    },
+    {
+        "title": "University of British Columbia International Leader of Tomorrow Award",
+        "level": "Undergraduate",
+        "coverage": "Tuition + living expenses",
+        "minCGPA": 3.5,
+        "minIELTS": 6.5,
+        "link": "https://students.ubc.ca/programs/international-leader-tomorrow-award"
+    },
+    {
+        "title": "University of Sydney International Scholarship",
+        "level": "Master’s & PhD",
+        "coverage": "Full tuition + living stipend",
+        "minCGPA": 3.5,
+        "minIELTS": 6.5,
+        "link": "https://sydney.edu.au/scholarships/domestic/international-scholarships.html"
+    },
+    {
+        "title": "University of Queensland International Scholarship",
+        "level": "Master’s & PhD",
+        "coverage": "Full tuition + living stipend",
+        "minCGPA": 3.5,
+        "minIELTS": 6.5,
+        "link": "https://scholarships.uq.edu.au/scholarship/international-scholarship"
+    },
+    {
+        "title": "University of Alberta International Scholarship",
+        "level": "Undergraduate",
+        "coverage": "CAD $9,000/year for 4 years",
+        "minCGPA": 3.5,
+        "minIELTS": 6.5,
+        "link": "https://www.ualberta.ca/international/programs/scholarships/international-undergraduate-scholarship.html"
+    },
+    {
+        "title": "University of Warwick Chancellor’s International Scholarship",
+        "level": "PhD",
+        "coverage": "Full tuition + living stipend",
+        "minCGPA": 3.7,
+        "minIELTS": 7.0,
+        "link": "https://warwick.ac.uk/services/academicoffice/scholarships/chancellors/"
+    },
+    {
+        "title": "University of Edinburgh Global Research Scholarship",
+        "level": "PhD",
+        "coverage": "Full tuition for international students",
+        "minCGPA": 3.5,
+        "minIELTS": 6.5,
+        "link": "https://www.ed.ac.uk/student-funding/postgraduate/international/global-research"
+    },
+    {
+        "title": "University of Manchester International Excellence Scholarship",
+        "level": "Master’s",
+        "coverage": "£10,000 tuition fee reduction",
+        "minCGPA": 3.5,
+        "minIELTS": 6.5,
+        "link": "https://www.manchester.ac.uk/international-excellence-scholarship"
+    },
+    {
+        "title": "University of Glasgow International Leadership Scholarship",
+        "level": "Undergraduate",
+        "coverage": "£5,000 tuition fee reduction",
+        "minCGPA": 3.5,
+        "minIELTS": 6.5,
+        "link": "https://www.gla.ac.uk/scholarships/internationalleadership/"
+    },
+    {
+        "title": "University of Leeds International Undergraduate Science and Engineering Scholarship",
+        "level": "Undergraduate",
+        "coverage": "£2,000 tuition fee reduction",
+        "minCGPA": 3.5,
+        "minIELTS": 6.5,
+        "link": "https://www.leeds.ac.uk/scholarships/international-undergraduate-science-engineering"
+    },
+    {
+        "title": "University of Bristol Think Big Scholarship",
+        "level": "Undergraduate & Master’s",
+        "coverage": "£5,000 - £10,000 tuition fee reduction",
+        "minCGPA": 3.5,
+        "minIELTS": 6.5,
+        "link": "https://www.bristol.ac.uk/students/support/finance/scholarships/think-big/"
+    },
+    {
+        "title": "University of Nottingham Developing Solutions Scholarship",
+        "level": "Master’s",
+        "coverage": "50% tuition fee reduction",
+        "minCGPA": 3.5,
+        "minIELTS": 6.5,
+        "link": "https://www.nottingham.ac.uk/developingsolutions/"
+    },
+    {
+        "title": "University of Southampton International Merit Scholarship",
+        "level": "Master’s",
+        "coverage": "£2,000 tuition fee reduction",
+        "minCGPA": 3.5,
+        "minIELTS": 6.5,
+        "link": "https://www.southampton.ac.uk/international/fees-and-funding/scholarships/international-merit-scholarship.page"
+    },
+    {
+        "title": "University of York International Scholarship",
+        "level": "Master’s",
+        "coverage": "£10,000 tuition fee reduction",
+        "minCGPA": 3.5,
+        "minIELTS": 6.5,
+        "link": "https://www.york.ac.uk/study/postgraduate/international-scholarships/"
+    },
+    {
+        "title": "University of Birmingham International Excellence Scholarship",
+        "level": "Master’s",
+        "coverage": "£10,000 tuition fee reduction",
+        "minCGPA": 3.5,
+        "minIELTS": 6.5,
+        "link": "https://www.birmingham.ac.uk/international/students/scholarships/excellence.aspx"
+    },
+    {
+        "title": "University of Sussex Chancellor’s International Scholarship",
+        "level": "PhD",
+        "coverage": "Full tuition + living stipend",
+        "minCGPA": 3.7,
+        "minIELTS": 7.0,
+        "link": "https://www.sussex.ac.uk/study/scholarships/international/chancellors"
+    },
+    {
+        "title": "University of Exeter International Scholarship",
+        "level": "Master’s",
+        "coverage": "£5,000 tuition fee reduction",
+        "minCGPA": 3.5,
+        "minIELTS": 6.5,
+        "link": "https://www.exeter.ac.uk/international/students/scholarships/"
+    },
+    {
+        "title": "University of Liverpool International College Scholarship",
+        "level": "Undergraduate",
+        "coverage": "£2,000 tuition fee reduction",
+        "minCGPA": 3.5,
+        "minIELTS": 6.5,
+        "link": "https://www.liverpool.ac.uk/international/undergraduate/scholarships/"
+    },
+    {
+        "title": "University of Sheffield International Merit Postgraduate Scholarship",
+        "level": "Master’s",
+        "coverage": "£2,000 tuition fee reduction",
+        "minCGPA": 3.5,
+        "minIELTS": 6.5,
+        "link": "https://www.sheffield.ac.uk/international/fees-and-funding/scholarships/merit"
+    },
+    {
+        "title": "University of Leicester International Scholarship",
+        "level": "Master’s",
+        "coverage": "£2,000 tuition fee reduction",
+        "minCGPA": 3.5,
+        "minIELTS": 6.5,
+        "link": "https://le.ac.uk/international/scholarships"
+    },
+    {
+        "title": "University of Kent International Scholarship",
+        "level": "Master’s",
+        "coverage": "£2,000 tuition fee reduction",
+        "minCGPA": 3.5,
+        "minIELTS": 6.5,
+        "link": "https://www.kent.ac.uk/international/scholarships"
+    },
+    {
+        "title": "University of Reading International Scholarship",
+        "level": "Master’s",
+        "coverage": "£2,000 tuition fee reduction",
+        "minCGPA": 3.5,
+        "minIELTS": 6.5,
+        "link": "https://www.reading.ac.uk/international/scholarships/"
+    },
+    {
+        "title": "University of Glasgow International Leadership Scholarship",
+        "level": "Undergraduate",
+        "coverage": "£5,000 tuition fee reduction",
+        "minCGPA": 3.5,
+        "minIELTS": 6.5,
+        "link": "https://www.gla.ac.uk/scholarships/internationalleadership/"
+    },
+    {
+        "title": "University of Bristol Think Big Scholarship",
+        "level": "Undergraduate & Master’s",
+        "coverage": "£5,000 - £10,000 tuition fee reduction",
+        "minCGPA": 3.5,
+        "minIELTS": 6.5,
+        "link": "https://www.bristol.ac.uk/students/support/finance/scholarships/think-big/"
+    },
+    {
+        "title": "University of Nottingham Developing Solutions Scholarship",
+        "level": "Master’s",
+        "coverage": "50% tuition fee reduction",
+        "minCGPA": 3.5,
+        "minIELTS": 6.5,
+        "link": "https://www.nottingham.ac.uk/developingsolutions/"
+    },
+    {
+        "title": "University of Southampton International Merit Scholarship",
+        "level": "Master’s",
+        "coverage": "£2,000 tuition fee reduction",
+        "minCGPA": 3.5,
+        "minIELTS": 6.5,
+        "link": "https://www.southampton.ac.uk/international/fees-and-funding/scholarships/international-merit-scholarship.page"
+    },
+    {
+        "title": "University of York International Scholarship",
+        "level": "Master’s",
+        "coverage": "£10,000 tuition fee reduction",
+        "minCGPA": 3.5,
+        "minIELTS": 6.5,
+        "link": "https://www.york.ac.uk/study/postgraduate/international-scholarships/"
+    },
+    {
+        "title": "University of Birmingham International Excellence Scholarship",
+        "level": "Master’s",
+        "coverage": "£10,000 tuition fee reduction",
+        "minCGPA": 3.5,
+        "minIELTS": 6.5,
+        "link": "https://www.birmingham.ac.uk/international/students/scholarships/excellence.aspx"
+    }
+]

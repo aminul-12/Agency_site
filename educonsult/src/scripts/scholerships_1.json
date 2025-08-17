@@ -1,0 +1,512 @@
+[
+    {
+        "title": "Chevening Scholarship (UK)",
+        "level": "Master’s",
+        "coverage": "Full tuition fees + living stipend",
+        "eligibility": "Academic excellence + leadership potential",
+        "minCGPA": "3.00",
+        "minIELTS": "6.50",
+        "link": "https://www.chevening.org/"
+    },
+    {
+        "title": "Fulbright Scholarship (USA)",
+        "level": "Master’s & PhD",
+        "coverage": "Full funding (tuition, travel, living costs)",
+        "eligibility": "Research & leadership skills required",
+        "minCGPA": "3.20",
+        "minIELTS": "7.50",
+        "link": "https://foreign.fulbrightonline.org/"
+    },
+    {
+        "title": "Erasmus Mundus (EU)",
+        "level": "Master’s",
+        "coverage": "Tuition + monthly stipend",
+        "eligibility": "Open to all international students",
+        "minCGPA": "4.00",
+        "minIELTS": "7.00",
+        "link": "https://www.eacea.ec.europa.eu/"
+    },
+    {
+        "title": "DAAD Scholarship (Germany)",
+        "level": "Master’s & PhD",
+        "coverage": "Full tuition + monthly stipend",
+        "eligibility": "Academic excellence + German language skills",
+        "link": "https://www.daad.de/en/"
+    },
+    {
+        "title": "Commonwealth Scholarship (UK)",
+        "level": "Master’s & PhD",
+        "coverage": "Full tuition + airfare + living stipend",
+        "eligibility": "Academic merit + development potential",
+        "link": "http://cscuk.dfid.gov.uk/"
+    },
+    {
+        "title": "Vanier Canada Graduate Scholarships",
+        "level": "PhD",
+        "coverage": "CAD 50,000 per year for 3 years",
+        "eligibility": "Academic excellence + research potential",
+        "link": "https://vanier.gc.ca/en/home-accueil.html"
+    },
+    {
+        "title": "Australia Awards Scholarships",
+        "level": "Undergraduate & Postgraduate",
+        "coverage": "Full tuition + living expenses",
+        "eligibility": "Citizens of eligible countries",
+        "link": "https://www.dfat.gov.au/people-to-people/australia-awards"
+    },
+    {
+        "title": "New Zealand Development Scholarships",
+        "level": "Undergraduate & Postgraduate",
+        "coverage": "Full tuition + living costs",
+        "eligibility": "Citizens of developing countries",
+        "link": "https://www.mfat.govt.nz/en/aid-and-development/new-zealand-development-scholarships/"
+    },
+    {
+        "title": "Gates Cambridge Scholarship",
+        "level": "PhD",
+        "coverage": "Full tuition + living stipend + airfare",
+        "eligibility": "Outstanding academic achievement + leadership potential",
+        "link": "https://www.gatescambridge.org/"
+    },
+    {
+        "title": "Rhodes Scholarship (Oxford)",
+        "level": "Master’s & PhD",
+        "coverage": "Full tuition + living stipend + travel costs",
+        "eligibility": "Academic excellence + leadership + commitment to service",
+        "link": "https://www.rhodeshouse.ox.ac.uk/"
+    },
+    {
+        "title": "Clarendon Fund (Oxford)",
+        "level": "Master’s & PhD",
+        "coverage": "Full tuition + living stipend",
+        "eligibility": "Academic excellence + potential",
+        "link": "https://www.ox.ac.uk/clarendon"
+    },
+    {
+        "title": "University of Toronto International Scholar Award",
+        "level": "Undergraduate",
+        "coverage": "$100,000 CAD over 4 years",
+        "eligibility": "International students with high academic standing",
+        "link": "https://future.utoronto.ca/awards/international/"
+    },
+    {
+        "title": "Lester B. Pearson International Scholarship",
+        "level": "Undergraduate",
+        "coverage": "Covers tuition, books, incidental fees, and full residence support for four years",
+        "eligibility": "International students with exceptional academic achievement and creativity",
+        "link": "https://future.utoronto.ca/pearson/"
+    },
+    {
+        "title": "University of Melbourne Graduate Research Scholarships",
+        "level": "Master’s & PhD",
+        "coverage": "Full tuition + living stipend + relocation grant",
+        "eligibility": "Academic excellence + research potential",
+        "link": "https://scholarships.unimelb.edu.au/awards/graduate-research-scholarships"
+    },
+    {
+        "title": "University of Sydney International Scholarships",
+        "level": "Master’s & PhD",
+        "coverage": "Full tuition + living stipend",
+        "eligibility": "Academic merit + research potential",
+        "link": "https://sydney.edu.au/scholarships/domestic/international-scholarships.html"
+    },
+    {
+        "title": "Monash Graduate Scholarship",
+        "level": "Master’s & PhD",
+        "coverage": "Full tuition + living stipend",
+        "eligibility": "Academic excellence + research potential",
+        "link": "https://www.monash.edu/graduate-research/future-students/scholarships"
+    },
+    {
+        "title": "University of Queensland Graduate School Scholarships",
+        "level": "Master’s & PhD",
+        "coverage": "Full tuition + living stipend",
+        "eligibility": "Academic excellence + research potential",
+        "link": "https://graduate-school.uq.edu.au/scholarships"
+    },
+    {
+        "title": "University of British Columbia International Leader of Tomorrow Award",
+        "level": "Undergraduate",
+        "coverage": "Tuition + living expenses based on financial need",
+        "eligibility": "Outstanding international students with financial need",
+        "link": "https://students.ubc.ca/programs/international-leader-tomorrow-award"
+    },
+    {
+        "title": "York University International Student Scholarship Program",
+        "level": "Undergraduate",
+        "coverage": "Up to CAD 35,000 per year",
+        "eligibility": "International students with high academic standing",
+        "link": "https://futurestudents.yorku.ca/finances/scholarships/international"
+    },
+    {
+        "title": "University of Alberta International Scholarships",
+        "level": "Undergraduate & Graduate",
+        "coverage": "Varies by scholarship",
+        "eligibility": "International students with strong academic records",
+        "link": "https://www.ualberta.ca/international/programs/scholarships/index.html"
+    },
+    {
+        "title": "University of Warwick Chancellor’s International Scholarship",
+        "level": "PhD",
+        "coverage": "Full tuition + stipend",
+        "eligibility": "Outstanding international students",
+        "link": "https://warwick.ac.uk/services/academicoffice/scholarships/chancellors/"
+    },
+    {
+        "title": "University of Edinburgh Global Research Scholarships",
+        "level": "PhD",
+        "coverage": "£5,000 per year towards tuition fees",
+        "eligibility": "International students with high academic standing",
+        "link": "https://www.ed.ac.uk/student-funding/postgraduate/international/global-research"
+    },
+    {
+        "title": "University of Glasgow International Leadership Scholarship",
+        "level": "Undergraduate & Postgraduate",
+        "coverage": "£5,000 per year tuition fee discount",
+        "eligibility": "International students with leadership potential",
+        "link": "https://www.gla.ac.uk/scholarships/international/"
+    },
+    {
+        "title": "University of Manchester International Excellence Scholarship",
+        "level": "Undergraduate & Postgraduate",
+        "coverage": "Up to £3,000 tuition fee reduction",
+        "eligibility": "International students with outstanding academic performance",
+        "link": "https://www.manchester.ac.uk/international-excellence-scholarship"
+    },
+    {
+        "title": "University of Leeds International Undergraduate Science and Engineering Scholarship",
+        "level": "Undergraduate",
+        "coverage": "£2,000 tuition fee reduction per year",
+        "eligibility": "International students in science and engineering programs",
+        "link": "https://www.leeds.ac.uk/scholarships/international-undergraduate-science-engineering"
+    },
+    {
+        "title": "University of Bristol Think Big Scholarships",
+        "level": "Undergraduate & Postgraduate",
+        "coverage": "Up to £20,000 towards tuition fees",
+        "eligibility": "International students with high academic achievement",
+        "link": "https://www.bristol.ac.uk/students/support/finance/scholarships/think-big/"
+    },
+    {
+        "title": "University of Nottingham Developing Solutions Masters Scholarship",
+        "level": "Master’s",
+        "coverage": "50% tuition fee reduction",
+        "eligibility": "Students from Africa, India, or selected Commonwealth countries",
+        "link": "https://www.nottingham.ac.uk/developingsolutions/"
+    },
+    {
+        "title": "University of Southampton International Merit Scholarship",
+        "level": "Undergraduate & Postgraduate",
+        "coverage": "Up to £3,000 tuition fee reduction",
+        "eligibility": "International students with high academic performance",
+        "link": "https://www.southampton.ac.uk/international/fees-and-funding/scholarships/merit.page"
+    },
+    {
+        "title": "University of Birmingham International Excellence Scholarship",
+        "level": "Undergraduate & Postgraduate",
+        "coverage": "Up to £10,000 tuition fee reduction",
+        "eligibility": "International students with outstanding academic records",
+        "link": "https://www.birmingham.ac.uk/international/students/scholarships/excellence.aspx"
+    },
+    {
+        "title": "University of Sussex Chancellor’s International Scholarship",
+        "level": "Postgraduate Taught",
+        "coverage": "£5,000 tuition fee reduction",
+        "eligibility": "International students with high academic achievement",
+        "link": "https://www.sussex.ac.uk/study/scholarships/international/chancellors-international-scholarship"
+    },
+    {
+        "title": "University of Exeter International Scholarship",
+        "level": "Undergraduate & Postgraduate",
+        "coverage": "Up to £5,000 tuition fee reduction",
+        "eligibility": "International students with strong academic records",
+        "link": "https://www.exeter.ac.uk/international/scholarships/"
+    },
+    {
+        "title": "University of York International Scholarships",
+        "level": "Undergraduate & Postgraduate",
+        "coverage": "Up to £10,000 tuition fee reduction",
+        "eligibility": "International students with high academic performance",
+        "link": "https://www.york.ac.uk/study/international/scholarships/"
+    },
+    {
+        "title": "University of Glasgow International Postgraduate Scholarship",
+        "level": "Postgraduate Taught",
+        "coverage": "£5,000 tuition fee reduction",
+        "eligibility": "International students with high academic achievement",
+        "link": "https://www.gla.ac.uk/scholarships/international/postgraduate/"
+    },
+    {
+        "title": "University of Liverpool International College Scholarships",
+        "level": "Undergraduate & Postgraduate",
+        "coverage": "Up to £3,000 tuition fee reduction",
+        "eligibility": "International students with strong academic records",
+        "link": "https://www.liverpool.ac.uk/international/undergraduate/scholarships/"
+    },
+    {
+        "title": "University of Sheffield International Undergraduate Scholarship",
+        "level": "Undergraduate",
+        "coverage": "£2,000 tuition fee reduction per year",
+        "eligibility": "International students with high academic performance",
+        "link": "https://www.sheffield.ac.uk/international/undergraduate/scholarships"
+    },
+    {
+        "title": "University of Kent International Scholarships",
+        "level": "Undergraduate & Postgraduate",
+        "coverage": "Up to £5,000 tuition fee reduction",
+        "eligibility": "International students with strong academic records",
+        "link": "https://www.kent.ac.uk/scholarships/international"
+    },
+    {
+        "title": "University of Leicester International Scholarships",
+        "level": "Undergraduate & Postgraduate",
+        "coverage": "Up to £2,000 tuition fee reduction",
+        "eligibility": "International students with high academic achievement",
+        "link": "https://le.ac.uk/international/scholarships"
+    },
+    {
+        "title": "University of Reading International Scholarships",
+        "level": "Undergraduate & Postgraduate",
+        "coverage": "Up to £3,000 tuition fee reduction",
+        "eligibility": "International students with strong academic performance",
+        "link": "https://www.reading.ac.uk/international/scholarships/"
+    },
+    {
+        "title": "University of East Anglia International Development Scholarships",
+        "level": "Postgraduate Taught",
+        "coverage": "£5,000 tuition fee reduction",
+        "eligibility": "International students with high academic achievement",
+        "link": "https://www.uea.ac.uk/study/postgraduate/scholarships/international-development"
+    },
+    {
+        "title": "University of Essex International Scholarships",
+        "level": "Undergraduate & Postgraduate",
+        "coverage": "Up to £4,000 tuition fee reduction",
+        "eligibility": "International students with strong academic records",
+        "link": "https://www.essex.ac.uk/scholarships/international"
+    },
+    {
+        "title": "University of Stirling International Scholarships",
+        "level": "Undergraduate & Postgraduate",
+        "coverage": "Up to £4,000 tuition fee reduction",
+        "eligibility": "International students with high academic performance",
+        "link": "https://www.stir.ac.uk/scholarships/international/"
+    },
+    {
+        "title": "University of Dundee Global Excellence Scholarship",
+        "level": "Undergraduate & Postgraduate",
+        "coverage": "Up to £5,000 tuition fee reduction",
+        "eligibility": "International students with outstanding academic records",
+        "link": "https://www.dundee.ac.uk/scholarships/global-excellence"
+    },
+    {
+        "title": "University of Warwick International Scholarships",
+        "level": "Undergraduate & Postgraduate",
+        "coverage": "Up to £3,000 tuition fee reduction",
+        "eligibility": "International students with high academic achievement",
+        "link": "https://warwick.ac.uk/services/academicoffice/scholarships/international/"
+    },
+    {
+        "title": "University of Bristol International Office Scholarships",
+        "level": "Undergraduate & Postgraduate",
+        "coverage": "Up to £8,000 tuition fee reduction",
+        "eligibility": "International students with strong academic performance",
+        "link": "https://www.bristol.ac.uk/international/fees-and-funding/scholarships/"
+    },
+    {
+        "title": "University of Nottingham International Undergraduate Excellence Scholarship",
+        "level": "Undergraduate",
+        "coverage": "Up to £8,000 tuition fee reduction",
+        "eligibility": "International students with high academic achievement",
+        "link": "https://www.nottingham.ac.uk/international/undergraduate/scholarships/excellence.aspx"
+    },
+    {
+        "title": "University of Southampton International Postgraduate Scholarship",
+        "level": "Postgraduate Taught",
+        "coverage": "Up to £5,000 tuition fee reduction",
+        "eligibility": "International students with strong academic records",
+        "link": "https://www.southampton.ac.uk/international/postgraduate/scholarships.page"
+    },
+    {
+        "title": "University of Birmingham International Postgraduate Scholarship",
+        "level": "Postgraduate Taught",
+        "coverage": "Up to £10,000 tuition fee reduction",
+        "eligibility": "International students with outstanding academic records",
+        "link": "https://www.birmingham.ac.uk/international/postgraduate/scholarships.aspx"
+    },
+    {
+        "title": "University of Sussex International Postgraduate Scholarship",
+        "level": "Postgraduate Taught",
+        "coverage": "£5,000 tuition fee reduction",
+        "eligibility": "International students with high academic achievement",
+        "link": "https://www.sussex.ac.uk/study/scholarships/international/postgraduate/"
+    },
+    {
+        "title": "University of Exeter International Postgraduate Scholarship",
+        "level": "Postgraduate Taught",
+        "coverage": "Up to £5,000 tuition fee reduction",
+        "eligibility": "International students with strong academic records",
+        "link": "https://www.exeter.ac.uk/international/postgraduate/scholarships/"
+    },
+    {
+        "title": "University of York International Postgraduate Scholarship",
+        "level": "Postgraduate Taught",
+        "coverage": "Up to £10,000 tuition fee reduction",
+        "eligibility": "International students with high academic performance",
+        "link": "https://www.york.ac.uk/study/postgraduate/international/scholarships/"
+    },
+    {
+        "title": "University of Glasgow International Postgraduate Scholarship",
+        "level": "Postgraduate Taught",
+        "coverage": "£5,000 tuition fee reduction",
+        "eligibility": "International students with high academic achievement",
+        "link": "https://www.gla.ac.uk/scholarships/international/postgraduate/"
+    },
+    {
+        "title": "University of Liverpool International College Scholarships",
+        "level": "Undergraduate & Postgraduate",
+        "coverage": "Up to £3,000 tuition fee reduction",
+        "eligibility": "International students with strong academic records",
+        "link": "https://www.liverpool.ac.uk/international/undergraduate/scholarships/"
+    },
+    {
+        "title": "University of Sheffield International Undergraduate Scholarship",
+        "level": "Undergraduate",
+        "coverage": "£2,000 tuition fee reduction per year",
+        "eligibility": "International students with high academic performance",
+        "link": "https://www.sheffield.ac.uk/international/undergraduate/scholarships"
+    },
+    {
+        "title": "University of Kent International Scholarships",
+        "level": "Undergraduate & Postgraduate",
+        "coverage": "Up to £5,000 tuition fee reduction",
+        "eligibility": "International students with strong academic records",
+        "link": "https://www.kent.ac.uk/scholarships/international"
+    },
+    {
+        "title": "University of Leicester International Scholarships",
+        "level": "Undergraduate & Postgraduate",
+        "coverage": "Up to £2,000 tuition fee reduction",
+        "eligibility": "International students with high academic achievement",
+        "link": "https://le.ac.uk/international/scholarships"
+    },
+    {
+        "title": "University of Reading International Scholarships",
+        "level": "Undergraduate & Postgraduate",
+        "coverage": "Up to £3,000 tuition fee reduction",
+        "eligibility": "International students with strong academic performance",
+        "link": "https://www.reading.ac.uk/international/scholarships/"
+    },
+    {
+        "title": "University of East Anglia International Development Scholarships",
+        "level": "Postgraduate Taught",
+        "coverage": "£5,000 tuition fee reduction",
+        "eligibility": "International students with high academic achievement",
+        "link": "https://www.uea.ac.uk/study/postgraduate/scholarships/international-development"
+    },
+    {
+        "title": "University of Essex International Scholarships",
+        "level": "Undergraduate & Postgraduate",
+        "coverage": "Up to £4,000 tuition fee reduction",
+        "eligibility": "International students with strong academic records",
+        "link": "https://www.essex.ac.uk/scholarships/international"
+    },
+    {
+        "title": "University of Stirling International Scholarships",
+        "level": "Undergraduate & Postgraduate",
+        "coverage": "Up to £4,000 tuition fee reduction",
+        "eligibility": "International students with high academic performance",
+        "link": "https://www.stir.ac.uk/scholarships/international/"
+    },
+    {
+        "title": "University of Dundee Global Excellence Scholarship",
+        "level": "Undergraduate & Postgraduate",
+        "coverage": "Up to £5,000 tuition fee reduction",
+        "eligibility": "International students with outstanding academic records",
+        "link": "https://www.dundee.ac.uk/scholarships/global-excellence"
+    },
+    {
+        "title": "University of Warwick International Scholarships",
+        "level": "Undergraduate & Postgraduate",
+        "coverage": "Up to £3,000 tuition fee reduction",
+        "eligibility": "International students with high academic achievement",
+        "link": "https://warwick.ac.uk/services/academicoffice/scholarships/international/"
+    },
+    {
+        "title": "University of Bristol International Office Scholarships",
+        "level": "Undergraduate & Postgraduate",
+        "coverage": "Up to £8,000 tuition fee reduction",
+        "eligibility": "International students with strong academic performance",
+        "link": "https://www.bristol.ac.uk/international/fees-and-funding/scholarships/"
+    },
+    {
+        "title": "University of Nottingham International Undergraduate Excellence Scholarship",
+        "level": "Undergraduate",
+        "coverage": "Up to £8,000 tuition fee reduction",
+        "eligibility": "International students with high academic achievement",
+        "link": "https://www.nottingham.ac.uk/international/undergraduate/scholarships/excellence.aspx"
+    },
+    {
+        "title": "University of Southampton International Postgraduate Scholarship",
+        "level": "Postgraduate Taught",
+        "coverage": "Up to £5,000 tuition fee reduction",
+        "eligibility": "International students with strong academic records",
+        "link": "https://www.southampton.ac.uk/international/postgraduate/scholarships.page"
+    },
+    {
+        "title": "University of Birmingham International Postgraduate Scholarship",
+        "level": "Postgraduate Taught",
+        "coverage": "Up to £10,000 tuition fee reduction",
+        "eligibility": "International students with outstanding academic records",
+        "link": "https://www.birmingham.ac.uk/international/postgraduate/scholarships.aspx"
+    },
+    {
+        "title": "University of Sussex International Postgraduate Scholarship",
+        "level": "Postgraduate Taught",
+        "coverage": "£5,000 tuition fee reduction",
+        "eligibility": "International students with high academic achievement",
+        "link": "https://www.sussex.ac.uk/study/scholarships/international/postgraduate/"
+    },
+    {
+        "title": "University of Exeter International Postgraduate Scholarship",
+        "level": "Postgraduate Taught",
+        "coverage": "Up to £5,000 tuition fee reduction",
+        "eligibility": "International students with strong academic records",
+        "link": "https://www.exeter.ac.uk/international/postgraduate/scholarships/"
+    },
+    {
+        "title": "University of York International Postgraduate Scholarship",
+        "level": "Postgraduate Taught",
+        "coverage": "Up to £10,000 tuition fee reduction",
+        "eligibility": "International students with high academic performance",
+        "link": "https://www.york.ac.uk/study/postgraduate/international/scholarships/"
+    },
+    {
+        "title": "University of Glasgow International Postgraduate Scholarship",
+        "level": "Postgraduate Taught",
+        "coverage": "£5,000 tuition fee reduction",
+        "eligibility": "International students with high academic achievement",
+        "link": "https://www.gla.ac.uk/scholarships/international/postgraduate/"
+    },
+    {
+        "title": "University of Liverpool International College Scholarships",
+        "level": "Undergraduate & Postgraduate",
+        "coverage": "Up to £3,000 tuition fee reduction",
+        "eligibility": "International students with strong academic records",
+        "link": "https://www.liverpool.ac.uk/international/undergraduate/scholarships/"
+    },
+    {
+        "title": "University of Sheffield International Undergraduate Scholarship",
+        "level": "Undergraduate",
+        "coverage": "$2,000 tuition fee reduction per year",
+        "eligibility": "International students with high academic performance",
+        "link": "https://www.sheffield.ac.uk/international/undergraduate/scholarships"
+    },
+    {
+        "title": "University of Kent International Scholarships",
+        "level": "Undergraduate & Postgraduate",
+        "coverage": "$5,000 tuition fee reduction",
+        "eligibility": "International students with strong academic records",
+        "link": "/educonsult/service.html#"
+    }
+]

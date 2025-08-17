@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="bn">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>যোগাযোগ করুন</title>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="/educonsult/assets/css/contact.css" />
+</head>
+
+<body>
+    <section class="contact-box">
+        <h1>📬 যোগাযোগ করুন</h1>
+        <p>আপনার প্রশ্ন, পরামর্শ বা সহযোগিতার জন্য নিচের ফর্মটি পূরণ করুন।</p>
+
+        <form id="contact-form">
+            <label>
+                নাম
+                <input type="text" name="name" required placeholder="আপনার নাম লিখুন">
+            </label>
+
+            <label>
+                ইমেইল
+                <input type="email" name="email" required placeholder="আপনার ইমেইল লিখুন">
+            </label>
+
+            <label>
+                বার্তা
+                <textarea name="message" rows="5" required placeholder="আপনার বার্তা লিখুন"></textarea>
+            </label>
+
+            <button type="submit" class="btn">✅ পাঠান</button>
+        </form>
+
+        <div id="form-response" style="display:none;"></div>
+    </section>
+
+    <script src="/educonsult/assets/js/contact.js"></script>
+</body>
+
+</html>
